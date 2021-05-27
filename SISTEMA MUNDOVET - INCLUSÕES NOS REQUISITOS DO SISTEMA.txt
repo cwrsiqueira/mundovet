@@ -1,0 +1,55 @@
+INCLUSÕES NOS REQUISITOS DO SISTEMA
+
+ERROS/BUGS:
+
+ATUALIZAÇÕES NECESSÁRIAS:
+
+- Blog, financeiro, página do site, página de comprar mensalidade, relatórios internos
+
+- aparecer na visualização da ficha de consulta só oq foi marcado
+
+- Criar formas de cobrança para mensalidade do SISTEMA
+
+- Criar página inicial do sistema  (bonita, moderna, funcional e responsiva) (??? pode ser uma rede social ???)
+    - Áreas:
+        - Login no Sistema pelo veterinário
+        - Login na área de cliente (marcar e ver agenda de consultas, ver fichas de consultas e caderneta de vacinação)
+        - Área de apresentação das veterinárias cadastradas, com opção de ir para a página da veterinária 
+
+    - Página da veterinária
+        - Descrições, fotos, informações, logo etc.
+        - Blog para notícias e postagens (com área de curtidas e comentários)
+
+- Gerar informações
+    - Relatório de Vacinas (incluir na página de visualização do paciente)
+        - preechido conforme consulta, com opção de incluir mais
+
+    - Tabela de Comparação entre as duas últimas consultas
+
+Gerar formulários preenchidos e com opção de formulários em branco
+
+    - Formulário do Resultado da Consulta
+        - Nosocomia e Prescrito (preenchido conforme consulta) opção para incluir mais
+        - Pedidos de Exames (conforme consulta) opção para incluir mais
+        - Informar data e motivo do retorno
+
+- Criar Calendário de Datas disponíveis
+    - Opção de marcar consulta pelo site, pelo cliente
+
+ITENS DE SEGURANÇA
+
+- Captcha no registro, login, e marcar consultas
+
+ITENS DE VERIFICAÇÃO DO SISTEMA:
+
+verificar se as alterações no banco de dados não correm o risco de alterar o
+banco de outra empresa
+
+garantir que os usuários de uma empresa só tenham acesso ao banco de dados
+da própria empresa, para consultar, incluir, alterar e deletar.
+
+Cliente precisa ter a opção de fazer backup do banco de dados (OBS: Só dos seus prórprios dados)
+
+FAZER API E APP DE TODO O SISTEMA (OU PELO MENOS DE MARCAR CONSULTAS, ACOMPANHAR VACINAS E ALERTAS
+PARA NÃO ESQUECER DE VACINAS E CONSULTAS - LEMBRETES MENSAIS, TRI E SEMESTRAIS, SOBRE CONSULTAS, CUIDADOS,
+TRATAMENTOS, VACINAS ETC.)

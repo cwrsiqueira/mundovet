@@ -1,0 +1,104 @@
+.area_logo {
+	border: 1px dotted #CCC;
+	border-radius: 10px;
+}
+.area_logo img {
+	width: 100%;
+	padding: 15px;
+	min-height: 220px;
+	min-width: 220px;
+	object-fit: contain;
+}
+.over-logo {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	width: 91%;
+	display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-family: arial;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.edit_logo:hover .over-logo {
+	display: flex;
+}
+input.hidden {
+	display: none;
+}
+.searchresults_client {
+	background-color:#FFF;
+	position:absolute;
+	border:1px solid #CCC;
+	z-index: 1;
+}
+.searchresults_patient {
+	background-color:#FFF;
+	position:absolute;
+	border:1px solid #CCC;
+	z-index: 1;
+}
+.searchresults {
+	background-color:#FFF;
+	position:absolute;
+	border:1px solid #CCC;
+	z-index: 1;
+}
+.si {
+	height:30px;
+	line-height: 30px;
+	padding-left:10px;
+	cursor:pointer;
+}
+.si a {
+	color:#000;
+	text-decoration: none;
+	display:block;
+	z-index: 999;
+}
+.si:hover {
+	background-color:#EEE;
+}
+.consulta_completa {
+	display: none;
+}
+.hidden_aba {
+	display: none;
+}
+.show_aba {
+	display: block;
+}
+/* .form-check-label {
+	display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+	margin: 10px 10px;
+	padding:5px;
+	min-width: 50px;
+}
+.form-consulta-checkbox {
+	text-align: center;
+} */
+input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+}
+.form-check-label {
+	padding: 5px 10px;
+}
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+}
+.fast_menu {
+	display: flex;
+	align-items: right;
+	width: 50px;
+	height: 20px;
+	background-color: #000;
+	right: 10px;
+	bottom: 0;
+}
